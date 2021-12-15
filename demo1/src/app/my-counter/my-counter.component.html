@@ -1,0 +1,6 @@
+<div style="margin-bottom: 4px; display: flex;">
+  <button (click)="increment()" style="margin-right: 4px;">+</button>
+  <div style="margin-right: 4px;">Current Count: {{count$|async}} </div>
+  <button (click)="decrement()">-</button>
+</div>
+<button (click)="reset()">Reset</button>
